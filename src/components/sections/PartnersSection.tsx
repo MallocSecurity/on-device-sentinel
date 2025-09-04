@@ -103,39 +103,44 @@ const PartnersSection = () => {
           </Card>
         </div>
 
-        {/* Collaboration Benefits */}
-        <div className="bg-gradient-hero rounded-2xl p-8 md:p-12 border border-cyber-border">
-          <div className="text-center">
-            <h3 className="text-2xl font-bold mb-4 text-foreground">Co-Development Excellence</h3>
-            <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
-              This collaborative approach combines academic research excellence with industry expertise, 
-              accelerating the development of innovative cybersecurity solutions while ensuring 
-              practical applicability and market readiness.
-            </p>
-            
-            <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
-              <div className="text-left">
-                <h4 className="font-semibold mb-3 text-primary">Research Impact</h4>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Advanced ML algorithm development</li>
-                  <li>• Rigorous scientific validation</li>
-                  <li>• Academic publication and dissemination</li>
-                  <li>• Knowledge transfer to industry</li>
-                </ul>
-              </div>
-              
-              <div className="text-left">
-                <h4 className="font-semibold mb-3 text-accent">Commercial Viability</h4>
-                <ul className="space-y-2 text-sm text-muted-foreground">
-                  <li>• Real-world application testing</li>
-                  <li>• Scalable solution architecture</li>
-                  <li>• Market-ready prototype development</li>
-                  <li>• Sustainable business model integration</li>
-                </ul>
+          <div className="bg-gradient-hero rounded-2xl p-8 md:p-12 border border-cyber-border">
+            <div className="text-center mb-8">
+              <h3 className="text-2xl font-bold mb-4 text-foreground">Official Partner Logos</h3>
+              <div className="bg-white/10 backdrop-blur-sm rounded-xl p-8 inline-block">
+                <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12">
+                  {/* The Cyprus Institute */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-20 h-20 bg-white rounded-lg p-3 mb-3 shadow-lg">
+                      <div className="w-full h-full bg-blue-600 rounded flex items-center justify-center text-white font-bold text-xs">
+                        CYI
+                      </div>
+                    </div>
+                    <span className="text-sm font-medium text-foreground">The Cyprus Institute</span>
+                  </div>
+                  
+                  {/* Malloc */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-20 h-20 bg-white rounded-lg p-3 mb-3 shadow-lg">
+                      <div className="w-full h-full bg-black rounded flex items-center justify-center text-white font-bold text-xs">
+                        M
+                      </div>
+                    </div>
+                    <span className="text-sm font-medium text-foreground">Malloc</span>
+                  </div>
+                  
+                  {/* Research & Innovation Foundation */}
+                  <div className="flex flex-col items-center">
+                    <div className="w-20 h-20 bg-white rounded-lg p-3 mb-3 shadow-lg">
+                      <div className="w-full h-full bg-primary rounded flex items-center justify-center text-white font-bold text-xs">
+                        RIF
+                      </div>
+                    </div>
+                    <span className="text-sm font-medium text-foreground">Research & Innovation Foundation</span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
       </div>
     </section>
   );

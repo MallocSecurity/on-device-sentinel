@@ -27,6 +27,12 @@ const Navigation = () => {
             <a href="#technology" className="text-muted-foreground hover:text-primary transition-colors">
               Technology
             </a>
+            <a href="#work-packages" className="text-muted-foreground hover:text-primary transition-colors">
+              Work Packages
+            </a>
+            <a href="#news" className="text-muted-foreground hover:text-primary transition-colors">
+              News
+            </a>
             <a href="#partners" className="text-muted-foreground hover:text-primary transition-colors">
               Partners
             </a>
@@ -61,6 +67,20 @@ const Navigation = () => {
                 onClick={() => setIsMenuOpen(false)}
               >
                 Technology
+              </a>
+              <a 
+                href="#work-packages" 
+                className="text-muted-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Work Packages
+              </a>
+              <a 
+                href="#news" 
+                className="text-muted-foreground hover:text-primary transition-colors py-2"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                News
               </a>
               <a 
                 href="#partners" 
