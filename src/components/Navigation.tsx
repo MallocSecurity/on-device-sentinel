@@ -14,7 +14,6 @@ const Navigation = () => {
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
                   src="https://media.licdn.com/dms/image/v2/D4E0BAQHqnVZKzEOkUA/company-logo_200_200/B4EZkTpZHxHgAM-/0/1756971242415/daemon_ai_logo?e=1762992000&v=beta&t=4PlTr6KZqxrtMR3u5vD7JDmqmXaR-QcDJfNWqcyBtWU"
-                  alt="DAEMON-AI Logo"
                   className="w-5 h-5 object-contain"
               />
             </div>
