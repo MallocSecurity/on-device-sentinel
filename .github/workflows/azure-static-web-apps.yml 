@@ -41,7 +41,7 @@ jobs:
           action: "upload"
           app_location: "/"          # root of your frontend code
           output_location: "dist"    # Vite output folder
-          production_branch: "dist"   # branch used for production deployment
+          production_branch: "dev"   # branch used for production deployment
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
