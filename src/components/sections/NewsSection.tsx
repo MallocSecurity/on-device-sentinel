@@ -4,55 +4,58 @@ import { Button } from "@/components/ui/button";
 import { Calendar, ExternalLink, Award, Users, Presentation } from "lucide-react";
 
 const NewsSection = () => {
+
+  /**    id: 1,
+   type: "milestone",
+   title: "DAEMON-AI Prototype Successfully Integrated",
+   date: "2024-11-15",
+   summary: "The first working prototype of DAEMON-AI has been successfully integrated into Malloc's existing mobile application, marking a significant milestone in the project development.",
+   content: "The integration includes real-time behavioral anomaly detection capabilities and initial encrypted traffic classification features. Early testing shows promising results with 95% accuracy in detecting known spyware patterns.",
+   tags: ["Integration", "Prototype", "TRL6"],
+   icon: Award
+   },
+   {
+   id: 2,
+   type: "publication",
+   title: "Research Paper Accepted at IEEE CyberSec 2024",
+   date: "2024-10-28",
+   summary: "Our research on 'Lightweight Behavioral Anomaly Detection for Mobile Cybersecurity' has been accepted for presentation at the prestigious IEEE CyberSec 2024 conference.",
+   content: "The paper details our novel approach to on-device machine learning for spyware detection, highlighting the energy-efficient algorithms developed through the DAEMON-AI project. The conference presentation is scheduled for December 2024 in Cyprus.",
+   tags: ["Publication", "IEEE", "Conference"],
+   icon: Presentation
+   },
+   {
+   id: 3,
+   type: "partnership",
+   title: "User Testing Program Launched",
+   date: "2024-10-10",
+   summary: "DAEMON-AI has launched its user testing program, inviting volunteers to test the new anomaly detection features and provide valuable feedback for system improvement.",
+   content: "Over 150 users have already signed up to participate in the testing program, exceeding our initial target of 100 opt-ins. The feedback collected will be crucial for refining the detection algorithms and user interface.",
+   tags: ["User Testing", "Beta", "Feedback"],
+   icon: Users
+   },
+   {
+   id: 4,
+   type: "development",
+   title: "Advanced ML Models Achieve 99.5% Accuracy",
+   date: "2024-09-22",
+   summary: "The latest iteration of our behavioral anomaly detection models has achieved 99.5% accuracy in controlled testing environments while maintaining energy efficiency.",
+   content: "The breakthrough comes from our innovative graph-based neural network approach combined with advanced model optimization techniques. The models can now detect previously unknown spyware variants with minimal false positives.",
+   tags: ["Machine Learning", "Accuracy", "Innovation"],
+   icon: Award
+   },**/
+
   const newsItems = [
     {
-      id: 1,
-      type: "milestone",
-      title: "DAEMON-AI Prototype Successfully Integrated",
-      date: "2024-11-15",
-      summary: "The first working prototype of DAEMON-AI has been successfully integrated into Malloc's existing mobile application, marking a significant milestone in the project development.",
-      content: "The integration includes real-time behavioral anomaly detection capabilities and initial encrypted traffic classification features. Early testing shows promising results with 95% accuracy in detecting known spyware patterns.",
-      tags: ["Integration", "Prototype", "TRL6"],
-      icon: Award
-    },
-    {
-      id: 2, 
-      type: "publication",
-      title: "Research Paper Accepted at IEEE CyberSec 2024",
-      date: "2024-10-28",
-      summary: "Our research on 'Lightweight Behavioral Anomaly Detection for Mobile Cybersecurity' has been accepted for presentation at the prestigious IEEE CyberSec 2024 conference.",
-      content: "The paper details our novel approach to on-device machine learning for spyware detection, highlighting the energy-efficient algorithms developed through the DAEMON-AI project. The conference presentation is scheduled for December 2024 in Cyprus.",
-      tags: ["Publication", "IEEE", "Conference"],
-      icon: Presentation
-    },
-    {
-      id: 3,
-      type: "partnership",
-      title: "User Testing Program Launched",
-      date: "2024-10-10", 
-      summary: "DAEMON-AI has launched its user testing program, inviting volunteers to test the new anomaly detection features and provide valuable feedback for system improvement.",
-      content: "Over 150 users have already signed up to participate in the testing program, exceeding our initial target of 100 opt-ins. The feedback collected will be crucial for refining the detection algorithms and user interface.",
-      tags: ["User Testing", "Beta", "Feedback"],
-      icon: Users
-    },
-    {
-      id: 4,
-      type: "development",
-      title: "Advanced ML Models Achieve 99.5% Accuracy", 
-      date: "2024-09-22",
-      summary: "The latest iteration of our behavioral anomaly detection models has achieved 99.5% accuracy in controlled testing environments while maintaining energy efficiency.",
-      content: "The breakthrough comes from our innovative graph-based neural network approach combined with advanced model optimization techniques. The models can now detect previously unknown spyware variants with minimal false positives.",
-      tags: ["Machine Learning", "Accuracy", "Innovation"],
-      icon: Award
-    },
-    {
+
       id: 5,
       type: "collaboration",
-      title: "Knowledge Exchange Workshop Completed",
-      date: "2024-09-05",
-      summary: "A successful three-day knowledge exchange workshop was conducted between The Cyprus Institute and Malloc teams, fostering deeper collaboration and technical alignment.",
-      content: "The workshop covered advanced ML techniques, mobile security architectures, and real-world deployment challenges. Both teams reported significant knowledge transfer and strengthened working relationships.",
-      tags: ["Workshop", "Collaboration", "Knowledge Transfer"], 
+      title: "Kick-Off Meeting Completed",
+      date: "2024-09-04",
+      summary: "A successful kick-off meeting conducted between The Cyprus Institute and Malloc teams, fostering deeper collaboration and technical alignment.",
+      content: "The kickoff meeting for the DAEMON-AI Project was held on the 4th of September, marking the official start of the collaboration between The Cyprus Institute and Malloc LTD. During the meeting, we aligned on the project’s objectives, defined key milestones, and discussed the technical roadmap for developing our AI-powered behavior-based anomaly detection system.\n" +
+          "This productive session set the foundation for a strong partnership focused on advancing mobile cybersecurity through privacy-preserving, real-time threat detection." ,
+      tags: ["Collaboration", "Knowledge Transfer"],
       icon: Users
     }
   ];
@@ -135,11 +138,19 @@ const NewsSection = () => {
                       </span>
                     ))}
                   </div>
-                  
-                  <Button variant="outline" size="sm" className="group/btn">
-                    Read More 
-                    <ExternalLink className="w-3 h-3 ml-2 group-hover/btn:translate-x-1 transition-transform" />
-                  </Button>
+
+                  <a
+                      href="https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-shrink_2048_1536/B4EZkZI4s3IkA0-/0/1757063385554?e=1762992000&v=beta&t=tz9L0991A_YDhGv8G6oylfWd-BdXKm1WWfhTOVyxJzY"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                  >
+                    <img
+                        src="https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-shrink_2048_1536/B4EZkZI4s3IkA0-/0/1757063385554?e=1762992000&v=beta&t=tz9L0991A_YDhGv8G6oylfWd-BdXKm1WWfhTOVyxJzY"
+                        alt="DAEMON-AI Project Kickoff"
+                        className="w-full rounded-2xl shadow-md hover:scale-[1.02] transition-transform"
+                    />
+                  </a>
+
                 </CardContent>
               </Card>
             );
@@ -174,11 +185,15 @@ const NewsSection = () => {
           <div className="bg-gradient-hero rounded-2xl p-8 md:p-12 border border-cyber-border">
             <h3 className="text-2xl font-bold mb-4 text-foreground">Stay Updated</h3>
             <p className="text-muted-foreground mb-6 max-w-2xl mx-auto">
-              Subscribe to our newsletter to receive the latest updates on DAEMON-AI 
+              Follow the project updates on our LinkedIn page to receive the latest updates on DAEMON-AI
               project developments, research breakthroughs, and publication announcements.
             </p>
-            <Button variant="cyber" size="lg">
-              Subscribe to Updates
+            <Button
+                variant="cyber"
+                size="lg"
+                onClick={() => window.location.href = 'https://www.linkedin.com/showcase/daemon-ai'}
+            >
+              Follow the Project on LinkedIn
             </Button>
           </div>
         </div>

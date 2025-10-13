@@ -11,13 +11,17 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-cyber rounded-lg flex items-center justify-center">
-              <Shield className="w-5 h-5 text-cyber-dark" />
+            <div className="w-8 h-8 rounded-lg flex items-center justify-center">
+              <img
+                  src="https://media.licdn.com/dms/image/v2/D4E0BAQHqnVZKzEOkUA/company-logo_200_200/B4EZkTpZHxHgAM-/0/1756971242415/daemon_ai_logo?e=1762992000&v=beta&t=4PlTr6KZqxrtMR3u5vD7JDmqmXaR-QcDJfNWqcyBtWU"
+                  alt="DAEMON-AI Logo"
+                  className="w-5 h-5 object-contain"
+              />
             </div>
             <span className="text-xl font-bold bg-gradient-cyber bg-clip-text text-transparent">
-              DAEMON-AI
-            </span>
-          </div>
+            DAEMON-AI
+          </span>
+                  </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-8">
@@ -36,9 +40,17 @@ const Navigation = () => {
             <a href="#partners" className="text-muted-foreground hover:text-primary transition-colors">
               Partners
             </a>
-            <Button variant="outline" size="sm">
+            <Button
+                variant="outline"
+                size="sm"
+                onClick={() =>
+                    (window.location.href =
+                        "mailto:info@mallocprivacy.com?subject=DAEMON-AI%20Project%20Request")
+                }
+            >
               Contact
             </Button>
+
           </div>
 
           {/* Mobile Menu Button */}
