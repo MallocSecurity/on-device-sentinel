@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Shield, Menu, X } from "lucide-react";
 import { useState } from "react";
-
+import daemonLogo from '@/assets/daemon_ai_logo.jpeg';
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,8 +13,8 @@ const Navigation = () => {
           <div className="flex items-center gap-2">
             <div className="w-8 h-8 rounded-lg flex items-center justify-center">
               <img
-                  src="..//assets/daemon_ai_logo.jpeg"
-                  className="w-5 h-5 object-contain"
+                  src="/favicon.svg"
+                  className="w-10 h-10 object-contain"
               />
             </div>
             <span className="text-xl font-bold bg-gradient-cyber bg-clip-text text-transparent">

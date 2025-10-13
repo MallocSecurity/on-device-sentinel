@@ -26,9 +26,9 @@ const HeroSection = () => {
           <div className="animate-fade-in flex flex-col items-center">
             {/* Logo */}
             <img
-                src="../../assets/daemon_ai_logo.jpeg"
-                alt="DAEMON-AI Logo"
-                className="w-24 h-24 md:w-32 md:h-32 object-contain mb-6"
+                src="/favicon.svg"
+                className="w-50 h-50 object-contain"
+                alt="Daemon AI Logo"
             />
 
             {/* Main Headline */}
