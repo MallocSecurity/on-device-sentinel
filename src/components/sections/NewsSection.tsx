@@ -171,7 +171,7 @@ const NewsSection = () => {
             </div>
             <div>
               <div className="text-3xl font-bold text-primary mb-2">8</div>
-              <div className="text-sm text-muted-foreground">Conference / Events Presentations</div>
+              <div className="text-sm text-muted-foreground">Conference and Event Presentations</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-accent mb-2">60+</div>
