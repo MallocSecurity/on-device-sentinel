@@ -162,7 +162,7 @@ const NewsSection = () => {
           <h3 className="text-2xl font-bold mb-8 text-center text-foreground">Project Impact</h3>
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-3xl font-bold text-primary mb-2">15+</div>
+              <div className="text-3xl font-bold text-primary mb-2">2+</div>
               <div className="text-sm text-muted-foreground">Research Publications</div>
             </div>
             <div>
@@ -171,7 +171,7 @@ const NewsSection = () => {
             </div>
             <div>
               <div className="text-3xl font-bold text-primary mb-2">8</div>
-              <div className="text-sm text-muted-foreground">Conference Presentations</div>
+              <div className="text-sm text-muted-foreground">Conference / Events Presentations</div>
             </div>
             <div>
               <div className="text-3xl font-bold text-accent mb-2">60+</div>
