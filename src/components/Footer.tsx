@@ -102,16 +102,7 @@ const Footer = () => {
               </div>
 
               {/* Right Image Section */}
-              <div className="flex flex-col items-center gap-3">
-                <div className="bg-white p-3 rounded-xl shadow-md">
-                  <img
-                      src="https://www.cyi.ac.cy/images/projects/castorc/daemon-ai/Picture1.png"
-                      alt="DAEMON-AI Funding Logos"
-                      className="h-16 object-contain"
-                  />
-                </div>
-
-              </div>
+            
             </div>
           </div>
         </div>
