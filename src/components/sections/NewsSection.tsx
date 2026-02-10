@@ -140,7 +140,7 @@ const NewsSection = () => {
                   </div>
 
                   <a
-                      href="https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-shrink_2048_1536/B4EZkZI4s3IkA0-/0/1757063385554?e=1762992000&v=beta&t=tz9L0991A_YDhGv8G6oylfWd-BdXKm1WWfhTOVyxJzY"
+                      href="https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-shrink_2048_1536/B4EZkZI4s3IkA0-/0/1757063385554?e=1772064000&v=beta&t=kzbxsmlmk3hJVwQ2ef_P36mB43RN8ZiYh4-JxXYVOys"
                       target="_blank"
                       rel="noopener noreferrer"
                   >
