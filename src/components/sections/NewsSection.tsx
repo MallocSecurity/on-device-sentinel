@@ -145,7 +145,7 @@ const NewsSection = () => {
                       rel="noopener noreferrer"
                   >
                     <img
-                        src="https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-shrink_2048_1536/B4EZkZI4s3IkA0-/0/1757063385554?e=1762992000&v=beta&t=tz9L0991A_YDhGv8G6oylfWd-BdXKm1WWfhTOVyxJzY"
+                        src="https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-image-high-res/B4EZkZI4s3IkAs-/0/1757063385554?e=1784160000&v=beta&t=XxOG8TK31tHZb1w4DB30NhecqMTBtw6gACGkvA0mbg0"
                         alt="DAEMON-AI Project Kickoff"
                         className="w-full rounded-2xl shadow-md hover:scale-[1.02] transition-transform"
                     />
