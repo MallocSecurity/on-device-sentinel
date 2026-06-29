@@ -39,7 +39,7 @@ const NewsSection = () => {
     },
     {
       id: 6,
-      type: "publication",
+      type: "presentation",
       title: "Project Represented at Workshop on Cybersecurity for Research Infrastructures",
       date: "2026-04-15",
       summary: "Andreas Athenodorou from The Cyprus Institute represented DAEMON-AI in the Eastern Mediterranean and Middle East regional workshop.",
