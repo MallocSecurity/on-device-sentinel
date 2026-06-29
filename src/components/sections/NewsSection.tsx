@@ -3,8 +3,12 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Calendar, Award, Users, Presentation, Cpu } from "lucide-react";
 
-// Import your local newsletter image asset here
+// Local image imports from your assets folder
+import scyenceFair1 from "@/assets/scyenceFair1.jpeg";
 import newsletterImg1 from "@/assets/newsletter-2026-1.png";
+import workshop1 from "@/assets/workshop1.jpeg";
+import workshop2 from "@/assets/workshop2.jpeg";
+import kickoff1 from "@/assets/kickoff1.jpeg";
 
 const NewsSection = () => {
 
@@ -19,9 +23,7 @@ const NewsSection = () => {
       funding: "The DAEMON-AI project is funded by the Ίδρυμα Έρευνας και Καινοτομίας/Research and Innovation Foundation of the Republic of Cyprus under the “RIF/CODEVELOP/0824” Call of RESTART 2016–2020.",
       tags: ["sCYence Fair", "CyberSecurity", "AIInnovation", "MobileSecurity"],
       icon: Presentation,
-      images: [
-        "https://media.licdn.com/dms/image/v2/D4D22AQE8iWlFQ1q1ZQ/feedshare-shrink_800/B4DZ38tLo7GQAc-/0/1778061196351?e=1784160000&v=beta&t=slaT3yUzF8OeXwKtqGuimDXgFL4SPYoQEEcCncwbY6I"
-      ]
+      images: [scyenceFair1] // Updated to local asset reference
     },
     {
       id: 8,
@@ -33,7 +35,7 @@ const NewsSection = () => {
       funding: "The DAEMON-AI project is funded by the Ίδρυμα Έρευνας και Καινοτομίας/Research and Innovation Foundation of the Republic of Cyprus under the “RIF/CODEVELOP/0824” Call of RESTART 2016–2020.",
       tags: ["Cybersecurity", "AI", "MobileSecurity", "Innovation", "Malloc", "DAEMONAI", "6G", "PrivacyFirst"],
       icon: Cpu,
-      images: [newsletterImg1] // Added your local imported image right here!
+      images: [newsletterImg1] // Kept your local asset reference
     },
     {
       id: 6,
@@ -45,10 +47,7 @@ const NewsSection = () => {
       funding: "The DAEMON-AI project is funded by the Ίδρυμα Έρευνας και Καινοτομίας/Research and Innovation Foundation of the Republic of Cyprus under the “RIF/CODEVELOP/0824” Call of RESTART 2016–2020.",
       tags: ["Workshop", "Unsupervised ML", "DAEMONAI", "CyberSecurity"],
       icon: Award,
-      images: [
-        "https://media.licdn.com/dms/image/v2/D4D22AQFYOxRE5qwIJA/feedshare-image-high-res/B4DZyPq7MeI8AU-/0/1771936920907?e=1784160000&v=beta&t=4TY31By5haD2MIwzQYv2yTs9u5D8sdD-4X48ZpvNWKU",
-        "https://media.licdn.com/dms/image/v2/D4D22AQEcFljMinsfxw/feedshare-shrink_800/B4DZyPq7PRIoAg-/0/1771936921091?e=1784160000&v=beta&t=aPkNGKGvm_ZCIMTkLwKRcBjW7tDuBOiycGw-YcY4VWQ"
-      ]
+      images: [workshop1, workshop2] // Updated to look at local asset paths
     },
     {
       id: 5,
@@ -59,9 +58,7 @@ const NewsSection = () => {
       content: "The kickoff meeting for the DAEMON-AI Project was held on the 4th of September, marking the official start of the collaboration between The Cyprus Institute and Malloc LTD. During the meeting, we aligned on the project’s objectives, defined key milestones, and discussed the technical roadmap for developing our AI-powered behavior-based anomaly detection system.\nThis productive session set the foundation for a strong partnership focused on advancing mobile cybersecurity through privacy-preserving, real-time threat detection.",
       tags: ["Collaboration", "Knowledge Transfer"],
       icon: Users,
-      images: [
-        "https://media.licdn.com/dms/image/v2/D4E22AQHm9CL-HNSCxA/feedshare-image-high-res/B4EZkZI4s3IkAs-/0/1757063385554?e=1784160000&v=beta&t=XxOG8TK31tHZb1w4DB30NhecqMTBtw6gACGkvA0mbg0"
-      ]
+      images: [kickoff1] // Updated to look at local asset path
     }
   ];
 
