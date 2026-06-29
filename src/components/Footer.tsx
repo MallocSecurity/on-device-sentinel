@@ -8,13 +8,7 @@ const Footer = () => {
             {/* Brand */}
             <div className="col-span-1">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded-lg flex items-center justify-center">
-                  <img
-                      src="https://media.licdn.com/dms/image/v2/D4E0BAQHqnVZKzEOkUA/company-logo_200_200/B4EZkTpZHxHgAM-/0/1756971242415/daemon_ai_logo?e=1762992000&v=beta&t=4PlTr6KZqxrtMR3u5vD7JDmqmXaR-QcDJfNWqcyBtWU"
-                      alt="DAEMON-AI Logo"
-                      className="w-5 h-5 object-contain"
-                  />
-                </div>
+                
                 <span className="text-xl font-bold bg-gradient-cyber bg-clip-text text-transparent">
             DAEMON-AI
           </span>
@@ -102,7 +96,7 @@ const Footer = () => {
               </div>
 
               {/* Right Image Section */}
-              <div className="flex flex-col items-center gap-3">
+               <div className="flex flex-col items-center gap-3">
                 <div className="bg-white p-3 rounded-xl shadow-md">
                   <img
                       src="https://www.cyi.ac.cy/images/projects/castorc/daemon-ai/Picture1.png"
@@ -112,6 +106,7 @@ const Footer = () => {
                 </div>
 
               </div>
+            
             </div>
           </div>
         </div>
